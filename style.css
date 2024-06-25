@@ -11,6 +11,17 @@ body {
    background-color: #2b2b2b;
    color: #fff;
 }
+section {
+    padding: 80px 0;
+}
+
+.section-tittle {
+    font-size: 38px;
+    font-weight: 600;
+}
+.section-subtitle {
+    font-size: 22px;
+}
 .header {
     padding: 20px 0;
 }
@@ -61,6 +72,21 @@ body {
 
     border: none ;
 }
+.btn2 {
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    gap: 12px;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
+    text-decoration: none;
+
+    border: none ;
+}
 
 .hero {
 }
@@ -86,14 +112,15 @@ body {
         font-size: 22px;
     }
 }
-.btn1 {
-}
+
 .hero__inner {
     display: flex;
     gap: 30px;
     
     align-items: start;
 }
+
+
 .hero__box {
 }
 .hero__right {
@@ -111,5 +138,80 @@ body {
         display: flex;
         align-items: center;
         
+    }
+}
+
+
+/* TREND SECTION */
+
+.trend {
+
+}
+.container {
+}
+.section-title {
+}
+.section-subtitle {
+    padding-top: 10px;
+}
+.trend__wrapper {
+    padding-top: 80px;
+    gap: 30px;
+    display: flex;
+}
+.trend__card {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.trend__big-img {
+}
+.trend__box {
+    gap: 15px;
+    display: flex;
+}
+.trend__card-name {
+}
+.trend__card-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top {
+}
+.container {
+}
+.top__info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.top__info-box {
+}
+.section-title {
+}
+.section-subtitle {
+}
+
+.top__wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+}
+.top__card {
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 200px;
+    width: 100%;
+
+    h5 {
+        position: absolute;
+        background-color: #2b2b2b;
+
     }
 }
